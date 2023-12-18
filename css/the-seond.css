@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1366px;
+  padding: 0 98px;
+  text-align: center;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.header-middle {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  gap: 50px;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.link1 {
+  padding: 2px 9px;
+  /* width: 58px; */
+  height: 24px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.link2 {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+}
+.link3 {
+  padding: 2px 26px 2px 10px;
+  width: 18px;
+  height: 20px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 500px;
+}
+.header-tab {
+  display: flex;
+  gap: 50px;
+}
+.page-2 {
+  margin-bottom: 24px;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100%;
+  display: inline-block;
+  background-color: #fff;
+  margin: 50px auto 0;
+}
+.top-wrapper {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #fff;
+}
+.welcome {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Segoe UI;
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.bottom p {
+  color: #444150;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.email-com {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 4px;
+}
+#email {
+  width: 414.535px;
+  height: 45.277px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  outline: none;
+  padding-left: 16px;
+}
+#number {
+  width: 414.535px;
+  height: 45.277px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  outline: none;
+  padding-left: 16px;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+}
+.phone-writing {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+.country {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.cities {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+#country {
+  width: 200px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+#cities {
+  width: 200px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.countries-cities {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+#password {
+  width: 414.535px;
+  height: 45.277px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  /* position: relative; */
+  background: #fff;
+}
+.password {
+  position: relative;
+  display: flex;
+  margin-top: 18px;
+  flex-direction: column;
+}
+.password label {
+  text-align: left;
+}
+#togglePassword {
+  top: 32px;
+  position: absolute;
+  right: 100px;
+}
+.footer-register {
+  width: 414.535px;
+  height: 51.183px;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 87px;
+  border: none;
+  text-align: left;
+  margin-right: 90px;
+  background: var(--01-bab-3, #01bab3);
+}
+.register {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 600;
+}
+.signing {
+  color: #778699;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+.terms {
+  color: var(--01-bab-3, #01bab3);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+footer {
+  display: block;
+  display: flex;
+  margin-top: 40px;
+}

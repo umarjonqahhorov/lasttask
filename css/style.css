@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1366px;
+  padding: 0 98px;
+  text-align: center;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.header-middle {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  gap: 50px;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.link1 {
+  padding: 2px 9px;
+  /* width: 58px; */
+  height: 24px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.link2 {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+}
+.link3 {
+  padding: 2px 26px 2px 10px;
+  width: 18px;
+  height: 20px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100%;
+  display: inline-block;
+  background-color: #fff;
+  margin: 50px auto 0;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 500px;
+}
+.header-tab {
+  display: flex;
+  gap: 50px;
+}
+.page-2 {
+  margin-bottom: 24px;
+}
+
+main {
+  background: #f4f8fa;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.main-top {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #fff;
+}
+.page-2 {
+  text-align: center;
+}
+.welcome {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Segoe UI;
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.bottom p {
+  color: #444150;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+label {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+#Firstname {
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+  width: 200px;
+  height: 48px;
+  display: block;
+  padding-left: 16px;
+  text-align: left;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.name-part {
+  display: flex;
+  gap: 16px;
+}
+.moving {
+  color: #01bab3;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+#birthday {
+  outline: none;
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.birthday {
+  display: flex;
+  flex-direction: column;
+}
+.gender {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 48px;
+  border-radius: 4px;
+  border: 2px solid #d9d9d9;
+  background: #fff;
+}
+#male {
+  width: 20px;
+  height: 20px;
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+
+  margin: 14px 16px;
+}
+.male-label {
+  padding-right: 96px;/
+}
+.gender-parent {
+  display: flex;
+  gap: 16px;
+}
+.gender-top {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+#skype {
+  width: 416px;
+  outline: none;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding-left: 16px;
+}
+.skype-writing {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 14px;
+  text-align: left;
+  margin-top: 4px;
+}
+.birthday label {
+  margin: 12px 0 4px 0;
+}
+#Firstname label {
+    text-align: left;
+}
+.birthday{
+    text-align: left;
+}
+.name-part{
+    text-align: left;
+}
+.continue {
+    color: var(--ffffff, #FFF);
+text-align: center;
+font-family: Segoe UI;
+font-size: 18px;
+font-weight: 600;
+}
+.register-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ width: 416px;
+height: 48px;
+border-radius: 4px;
+margin-top: 25px;
+background: var(--01-bab-3, #01BAB3);
+}
+.register-link button{
+    background: transparent;
+    border: none;
+    /* margin-top: 25px; */
+}
+.form-footer {
+    color: rgba(0, 0, 0, 0.65);
+text-align: center;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+margin: 64px 0 25px 0 ;
+
+}
